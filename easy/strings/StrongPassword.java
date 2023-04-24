@@ -23,8 +23,6 @@ class StrongPassword{
             return 6-n;
         }
 
-
-
         return nOfCharacterNeeded;
     }
 
