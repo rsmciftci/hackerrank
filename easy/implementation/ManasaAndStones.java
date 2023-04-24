@@ -1,4 +1,4 @@
-package easy;
+package easy.implementation;
 
 import java.util.ArrayList;
 import java.util.Collections;
