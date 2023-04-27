@@ -4,9 +4,7 @@ import java.util.*;
 
 class GameOfThronesI {
 
-    // Anagram of Palindrome
-
-    // can string be a palindrome?
+    // https://www.hackerrank.com/challenges/game-of-thrones/problem?isFullScreen=true&h_r=next-challenge&h_v=zen
 
     public static String gameOfThrones(String s) {
         // Write your code here
