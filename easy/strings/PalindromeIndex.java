@@ -1,7 +1,4 @@
 package easy.strings;
-
-import java.util.*;
-
 public class PalindromeIndex {
 
     // https://www.hackerrank.com/challenges/palindrome-index/problem?isFullScreen=true
