@@ -6,7 +6,6 @@ public class PalindromeIndex {
 
     // https://www.hackerrank.com/challenges/palindrome-index/problem?isFullScreen=true
     
-
     public static boolean isPalindrome(String s) {
 
         char[] charArray = s.toCharArray();
