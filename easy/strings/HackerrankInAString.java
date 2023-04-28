@@ -1,6 +1,7 @@
 package easy.strings;
 
 // https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem?isFullScreen=true
+
 // 23:06
 public class HackerrankInAString {
 
