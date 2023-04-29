@@ -6,7 +6,6 @@ public class AppendAndDelete {
 
     public static String appendAndDelete(String s, String t, int k) {
 
-  
         if (s.equals(t)) {
             return "Yes";
         }
@@ -28,12 +27,19 @@ public class AppendAndDelete {
 
         int deleteOps = s.length() - i;
         int addOps = t.length() - i;
+        int allOps = deleteOps + addOps;
 
-        if (k < (deleteOps + addOps))
+        if (k < allOps) {
             return "No";
+        }
 
-        if ((k - deleteOps - addOps) % 2 == 0)
+        if (k >= s.length() + t.length()) {
             return "Yes";
+        }
+
+        if ((k - allOps) % 2 == 0) {
+            return "Yes";
+        }
 
         return "No";
 
