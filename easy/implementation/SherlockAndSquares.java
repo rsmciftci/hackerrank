@@ -3,6 +3,7 @@ package easy.implementation;
 public class SherlockAndSquares {
 
     // https://www.hackerrank.com/challenges/sherlock-and-squares/problem?h_r=next-challenge&h_v=zen&isFullScreen=false
+    
 
     public static int squares(int a, int b) {
 
