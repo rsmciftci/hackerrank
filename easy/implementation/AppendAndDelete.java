@@ -47,9 +47,9 @@ public class AppendAndDelete {
 
     public static void main(String[] args) {
 
-        String s = "y";
-        String t = "yu";
-        int k = 2;
+        String s = "aaa";
+        String t = "a";
+        int k = 5;
 
         System.out.println(appendAndDelete(s, t, k));
 
