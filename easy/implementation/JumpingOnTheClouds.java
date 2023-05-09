@@ -4,6 +4,8 @@ import java.util.*;
 
 public class JumpingOnTheClouds {
 
+    // https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true
+
     public static int jumpingOnClouds(List<Integer> c) {
         // Write your code here
         int index = 0;
